@@ -293,6 +293,8 @@ header{
   border-radius: 10px;
   transition: 1s;
   margin-left: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .nagivation-auto div:not(:last-child){
