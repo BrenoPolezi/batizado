@@ -29,7 +29,7 @@ body,html{
   text-align: center;
   padding: 10px;
   top: 1%;
-  font-size: 30px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
 }
@@ -38,12 +38,12 @@ body,html{
   text-align: center;
   padding: 10px;
   top: 70%;
-  font-size: 40px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
 }
 .btz2 h5{
-  font-size: 20px;
+  font-size: 15px;
   display: flex;
   padding: 10px;
   top: 75%;
