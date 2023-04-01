@@ -283,6 +283,8 @@ header{
   width: 800px;
   justify-content: center;
   margin-top: 460px;
+  display: flex;
+  justify-content: center;
 }
 
 .navigation-auto div{
