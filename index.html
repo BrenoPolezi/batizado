@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,18 @@
   <link rel="stylesheet" href="style.css">
   <title>Batizado Ethan</title>
 </head>
+
 <body>
-  
-  <div class="btz"><h1>Batizado do Ethan</h1></div>
-  <div class="btz2"><p>Domingo, 16 de Abril às 10:00h <br> <h5>Local: Igreja Imaculado Coração de Maria - São Silvano</h5></p></div>
-  
+
+  <div class="btz">
+    <h1>Batizado do Ethan</h1>
+  </div>
+  <div class="btz2">
+    <p>Domingo, 16 de Abril às 10:00h <br>
+    <h5>Local: Igreja Imaculado Coração de Maria - São Silvano</h5>
+    </p>
+  </div>
+
   <!--img slider start-->
   <div class="slider">
     <div class="slides">
@@ -27,7 +35,7 @@
       <!--radio buttons end-->
       <!--slide img start-->
       <div class="slide first">
-        <img src="../img/1.jpg" alt="">
+        <img src="https://github.com/BrenoPolezi/batizado/tree/main/img/1.jpg" alt="">
       </div>
       <div class="slide">
         <img src="../img/2.jpg" alt="">
@@ -81,14 +89,15 @@
 
   <script type="text/javascript">
     var counter = 1;
-    setInterval(function(){
+    setInterval(function () {
       document.getElementById('radio' + counter).checked = true;
       counter++;
-      if(counter > 8){
+      if (counter > 8) {
         counter = 1;
       }
     }, 5000);
   </script>
 
 </body>
+
 </html>
